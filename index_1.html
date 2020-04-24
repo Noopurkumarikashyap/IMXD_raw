@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159397701-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159397701-1');
+</script>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+  <title>IDC Alumni Awards - Home</title>
+  <meta charset="utf-8">
+  <meta name="description" content="IDC Alumni Awards">
+  <meta name="keywords" content="IDC, IDC Awards, IDC School of design, IDC Alumni Awards, IDC Alumni Awards 2020, Design Awards, IDC DEsign Awards">
+  <meta name="author" content="Noopur Kumari Kashyap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="images/logo_orange.png">
+  <link rel="stylesheet" type="text/css" href="index_style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Mukta:400,500,600,700&display=swap" rel="stylesheet">
+  <style>
+    body{
+
+background-color:#ffffff;
+font-family: 'Mukta';
+}
+
+
+li{
+list-style-type:none;
+font-size:16px;
+}
+.menu_list{
+padding:0px;
+}
+
+a:link {
+ text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+color:#ffffff;
+}
+
+a:hover {
+ text-decoration: underline;
+color:#ffffff;
+}
+
+a:active {
+text-decoration: underline;
+color:#ffffff;
+}
+
+a.page_link:link {
+ text-decoration: underline;
+color:#bd570f;
+}
+
+a.page_link:visited {
+ text-decoration: underline;
+color:#bd570f;
+}
+
+a.page_link:hover {
+ text-decoration: underline;
+color:#f17822;
+}
+
+a.page_link:active {
+text-decoration: underline;
+color:#f17822;
+}
+
+h4{
+color:#465462;
+text-align:center;
+
+
+}
+h5{
+color:#404040;
+font-size:20px;
+text-align:center;
+}
+h3{
+color:#34414c;
+text-align:center;
+}
+#logo{
+visibility:visible;
+}
+.navbar-default {
+background-color:#f5f5f5;
+background-image: none;
+background-repeat: no-repeat;
+}
+
+
+
+table, th, td {
+border: 0px solid #f178226e;
+border-collapse: collapse;
+margin:5px;
+}
+th{
+   background-color:#f178223d;
+ color:#335b5f;
+}
+td{
+ color:#5c8589;
+}
+
+table{
+width:98%;
+margin-left:5px;
+}
+td,th{
+width:20%;
+}
+th, td {
+padding: 5px;
+text-align: left;
+  maring:5px;
+}
+
+
+#new_highlight{
+
+color:white;
+background-color:white;
+padding:3px;
+ animation-name: blink;
+ animation-duration: 1.25s;
+ animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes blink {
+ from {color: red;}
+ to {color: #ffffff;}
+}
+
+/* Standard syntax */
+@keyframes blink {
+from {color: red;}
+to {color: #ffffff;}
+}
+
+
+
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+.navbar{
+  padding-left:20px;
+padding-bottom:0px;
+padding:15px;
+}
+
+.talk_speaker{
+padding:15px;
+}
+
+.main_body{
+  min-height: 65vh;
+}
+
+#collapsibleNavbar{
+  padding-left:0px;
+}
+
+}
+
+
+a-scene{
+height:500px;
+width:100%;
+}
+
+  </style>
+
+</head>
+
+
+
+<body>
+  <!--navigation bar-->
+      <nav class="navbar navbar-light navbar-expand-sm  navbar-default sticky-top" style="margin-top:0px; padding-bottom:10px; padding-top:10px; margin-bottom:0px;margin-right:0px;margin-left:0px; padding-right:0px; padding-left:0px;">
+   <!-- Brand -->
+       <a class="navbar-brand" href="index.html" style="padding-bottom:0px;margin-left:70px; padding-right:0px; margin-right:0px;"><img id="logo" src="images/imxd-logo-nb.png" width="60%" height="60%" style="padding-bottom:0px;  margin:0px;"></a>
+   <!-- Toggler/collapsibe Button -->
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+   <!-- Navbar links -->
+       <ul class="navbar-nav justify-content-end ml-auto collapse navbar-collapse" id="collapsibleNavbar">
+             <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="margin-right:30px;  color:#000000;">
+                 Work
+                </a>
+                <div class="dropdown-menu" style="background-color:#ffeaa7; border:0px;">
+                  <a class="dropdown-item" href="#" style=" color:#000000;">Projects</a>
+                  <a class="dropdown-item" href="#" style="color:#000000;">Publications</a>
+
+                </div>
+              </li>
+    <li class="nav-item">
+              <a class="nav-link" href="winners_2020.html" style="margin-right:30px;   color:#000000;">People</a>
+          </li>
+    <li class="nav-item">
+              <a class="nav-link" href="nomination_call.html" style="margin-right:30px;   color:#000000;">About</a>
+          </li>
+          <li class="nav-item">
+                    <a class="nav-link" href="nomination_call.html" style="margin-right:5px;   color:#000000;">Contact</a>
+                </li>
+
+       </ul>
+
+      </nav>
+  <!--navigation bar ends-->
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159397701-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159397701-1');
+  </script>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <title>IDC Alumni Awards - Home</title>
+    <meta charset="utf-8">
+    <meta name="description" content="IDC Alumni Awards">
+    <meta name="keywords" content="IDC, IDC Awards, IDC School of design, IDC Alumni Awards, IDC Alumni Awards 2020, Design Awards, IDC DEsign Awards">
+    <meta name="author" content="Noopur Kumari Kashyap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/logo_orange.png">
+    <link rel="stylesheet" type="text/css" href="index_style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mukta:400,500,600,700&display=swap" rel="stylesheet">
+    <style>
+            body{
+
+  	  background-color:#ffffff;
+  	  font-family: 'Mukta';
+  	 }
+
+
+  	 li{
+  	    list-style-type:none;
+  		font-size:16px;
+  	 }
+  	 .menu_list{
+  	    padding:0px;
+  	 }
+
+  	 a:link {
+         text-decoration: none;
+       }
+
+       a:visited {
+         text-decoration: none;
+  	   color:#ffffff;
+       }
+
+       a:hover {
+         text-decoration: underline;
+  	   color:#ffffff;
+       }
+
+       a:active {
+        text-decoration: underline;
+  	  color:#ffffff;
+       }
+
+  	 a.page_link:link {
+         text-decoration: underline;
+  	   color:#bd570f;
+       }
+
+       a.page_link:visited {
+         text-decoration: underline;
+  	   color:#bd570f;
+       }
+
+       a.page_link:hover {
+         text-decoration: underline;
+  	   color:#f17822;
+       }
+
+       a.page_link:active {
+        text-decoration: underline;
+  	  color:#f17822;
+       }
+
+
+
+
+
+
+
+
+  	 h4{
+  	  color:#465462;
+  	  text-align:center;
+
+
+  	 }
+  	 h5{
+  	   color:#404040;
+  	   font-size:20px;
+  	   text-align:center;
+  	 }
+  	 h3{
+  	   color:#34414c;
+  	   text-align:center;
+  	 }
+  	#logo{
+  	  visibility:visible;
+  	}
+  	.navbar-default {
+        background-color:#f5f5f5;
+        background-image: none;
+        background-repeat: no-repeat;
+      }
+
+
+
+  	table, th, td {
+  		border: 0px solid #f178226e;
+  		border-collapse: collapse;
+  		margin:5px;
+       }
+  	 th{
+  	   	   background-color:#f178223d;
+  		   color:#335b5f;
+  	 }
+  	 td{
+  	     color:#5c8589;
+  	 }
+
+  	 table{
+  	    width:98%;
+  		margin-left:5px;
+  	 }
+  	 td,th{
+  	    width:20%;
+  	 }
+       th, td {
+  		padding: 5px;
+  		text-align: left;
+          maring:5px;
+  	 }
+
+
+  	 #new_highlight{
+
+  	   color:white;
+  	   background-color:white;
+  	   padding:3px;
+         animation-name: blink;
+         animation-duration: 1.25s;
+         animation-iteration-count: infinite;
+  	   animation-timing-function: linear;
+  	 }
+
+  	 /* Safari 4.0 - 8.0 */
+       @-webkit-keyframes blink {
+         from {color: red;}
+         to {color: #ffffff;}
+       }
+
+       /* Standard syntax */
+       @keyframes blink {
+        from {color: red;}
+        to {color: #ffffff;}
+       }
+
+
+
+  	@media only screen and (min-width: 600px) {
+  	  /* For tablets: */
+  	    .navbar{
+  		    padding-left:20px;
+  			padding-bottom:0px;
+  			padding:15px;
+  		}
+
+  		.talk_speaker{
+  		  padding:15px;
+  		}
+
+  		.main_body{
+      		min-height: 65vh;
+  	    }
+
+  		#collapsibleNavbar{
+  	      padding-left:0px;
+  	    }
+
+  	}
+
+
+      a-scene{
+        height:500px;
+        width:100%;
+      }
+
+    </style>
+
+  </head>
+
+
+
+  <body>
+
+
+       <!--navigation bar-->
+           <nav class="navbar navbar-light navbar-expand-sm  navbar-default sticky-top" style="margin-top:0px; padding-bottom:10px; padding-top:10px;
+           margin-bottom:0px;margin-right:0px;margin-left:0px; padding-right:0px; padding-left:0px;">
+  		  <!-- Brand -->
+            <a class="navbar-brand" href="index.html" style="padding-bottom:0px;margin-left:70px; padding-right:0px; margin-right:0px;"><img id="logo" src="images/imxd-logo-nb.png" width="60%" height="60%" style="padding-bottom:0px;  margin:0px;"></a>
+  		  <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+  		  <!-- Navbar links -->
+            <ul class="navbar-nav justify-content-end ml-auto collapse navbar-collapse" id="collapsibleNavbar">
+                  <!-- Dropdown -->
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="margin-right:30px;  color:#000000;">
+                      Work
+                     </a>
+                     <div class="dropdown-menu" style="background-color:#ffeaa7; border:0px;">
+                       <a class="dropdown-item" href="#" style=" color:#000000;">Projects</a>
+                       <a class="dropdown-item" href="#" style="color:#000000;">Publications</a>
+
+                     </div>
+                   </li>
+  			 <li class="nav-item">
+                   <a class="nav-link" href="winners_2020.html" style="margin-right:30px;   color:#000000;">People</a>
+               </li>
+  			 <li class="nav-item">
+                   <a class="nav-link" href="nomination_call.html" style="margin-right:30px;   color:#000000;">About</a>
+               </li>
+               <li class="nav-item">
+                         <a class="nav-link" href="nomination_call.html" style="margin-right:5px;   color:#000000;">Contact</a>
+                     </li>
+
+            </ul>
+
+           </nav>
+  	 <!--navigation bar ends-->
+
+
+  	 <!--page_body-->
+  	 <div class="container-fluid main_body" style="padding:0px; margin:0px;">
+  		 <div class="row" style="padding:0px; margin:0px">
+         <a-scene embedded>
+               <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+               <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+               <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+               <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+               <a-sky color="#d2d5d6"></a-sky>
+             </a-scene>
+  			 </div>
+         <div class="row" style="background-color:white">
+           <h2>IMXD Lab</h2>
+         </div>
+  			 <div class="col-sm-3" style="padding-top:50px;" >
+  			    <p style="text-align:left; font-size:25px; color:#f17822; margin-bottom:0px;"><b>IDC Alumni Awards 2020 Talk </b></p>
+  				<br>
+  				<p style="text-align:left; font-size:18px; color:red; margin-bottom:0px;" id="new_highlight"><b>Due to safety concerns regarding COVID-19, the 14th March 2020 Awards Talk has been postponed, till further notice. </b></p>
+  				<br>
+  				<p style="text-align:left; font-size:18px; color:#2e2e2e;">We have invited IDC Alumni Awards winners to give talks about their work. The talks are scheduled on <span style="color:#f17822;">March 14</span>, <span style="color:#f17822;">April 11</span>, <span style="color:#f17822;">August 8</span>, <span style="color:#f17822;">September 19</span>, and <span style="color:#f17822;">October 10</span>. Please mark your calendars.</p>
+  				<p style="font-size:18px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;"> </p>
+  				<br>
+  				<!--<p style="font-size:18px;color:#2e2e2e; padding-bottom:5px;margin-bottom:0px;">Upcoming talks:</p>
+  		        <img  class="" src="images/d_image.png"  style="width:130px; padding:0px; margin:0px;">-->
+                  <br>
+  				<br>
+  			    <!--<p style="text-align:left; font-size:18px; color:#2e2e2e; padding-top:0px; margin-top:0px;"><b>9:00 to 11:00</b>: Screening of the film <a class="page_link" href="https://www.imdb.com/title/tt6028796/" target="_blank">"Evening Shadows"</a>, a film by Sridhar Rangayan.</p>-->
+  				<div style="overflow-x:auto;">
+  				 <table style="margin:0px;">
+  					 <tr >
+  					     <th style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Time</p></th>
+  						 <th style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Event</p></th>
+  					 </tr>
+  					 <tr>
+  					     <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">09:00 - 11:00</p></td>
+  					     <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Screening of the film <a class="page_link" href="https://www.imdb.com/title/tt6028796/" target="_blank">"Evening Shadows"</a>, a film by Sridhar Rangayan.</p>
+  						 <a href="images/movie_poster_1.jpg" target="_blank"><img  class="" src="images/movie_poster_1.jpg"  style="width:100%; padding:0px; margin:0px;"></a></td>
+  					 </tr>
+  					 <tr>
+  					     <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">11:00 - 11:30</p></td>
+  					     <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Break</p></td>
+  					 </tr>
+  					 <tr>
+  					     <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">11:30 - 12:00</p></td>
+  						 <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Talk by Tanay Kumar</p></td>
+  					 </tr>
+  					 <tr>
+  						 <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">12:00 - 12:30</p></td>
+  						 <td style="border: 1px solid #f178223d;"><p style="font-size:16px;color:#2e2e2e; padding-bottom:0px;margin-bottom:0px;">Talk by Sridhar Rangayan</p></td>
+  					 </tr>
+
+  				 </table>
+  				 </div>
+  				 <br>
+
+  				 <p style="text-align:left; font-size:18px; color:#2e2e2e; padding-bottom:0px; margin-bottom:0px;">Venue:</p>
+  				 <p style="text-align:left; font-size:18px; color:#2e2e2e; padding-top:0px; margin-top:0px;"><b>IDC Auditorium</b></p>
+  				 <br>
+  			 </div>
+
+
+
+  			 <div class="col-sm-3 talk_speaker" >
+  			     <a href="Tanay_Kumar.html"><img  class="img-fluid mx-auto d-block" src="images/tanay.jpg"  style="width:100%;"></a>
+  				 <br>
+  			     <p style="padding:0px; margin:0px; font-size:20px;color:#2e2e2e;"><b>Tanay Kumar</b> </p>
+
+  				 <br>
+  				 <p style="padding:0px; margin:0px; font-size:18px;color:#f17822;"><b> Design Entrepreneur</b></p>
+  				 <p style="font-size:16px;color:#2e2e2e; ">Tanay Kumar, Visual Communication: 2001, shines through his passion for both design and entrepreneurship.
+  				 Being from the digital generation, he has built a design enterprise - ground up. <a href="Tanay_Kumar.html" class="page_link">Read more</a> </p>
+  				 <p style="font-size:18px;color:#2e2e2e;"><b>11:30-12:00</b></p><br><br>
+  			 </div>
+
+  			 <div class="col-sm-3 talk_speaker" >
+  			     <a href="Sridhar_Rangayan.html"><img  class="img-fluid mx-auto d-block" src="images/Sridhar_Rangayan.jpg"  style="width:100%;"></a>
+  				 <br>
+  			     <p style="paddinga:0px; margin:0px; font-size:20px;color:#2e2e2e;"><b>Sridhar Rangayan</b> </p>
+  				 <br>
+  				 <p style="padding:0px; margin:0px; font-size:18px;color:#f17822;"><b>Design for Social Responsibility </b></p>
+  				 <p style="font-size:16px;color:#2e2e2e; ">Sridhar Rangayan, Visual Communication: 1986, has worked in films since his graduation from IDC.
+  				 He is one of the very few filmmakers to focus entirely on socially important topics, especially queer subjects. <a href="Sridhar_Rangayan.html" class="page_link">Read more</a></p>
+                   <p style="font-size:18px;color:#2e2e2e;"><b>12:00-12:30</b></p><br><br>
+  			 </div>
+
+  			 <div class="col-sm-1" >
+
+  			 </div>
+  		 </div>
+
+  	</div>
+  	 <!--footer-->
+
+       <div class="container-fluid" style="background-color:#1c1c1d;padding-top:10px;padding-bottom:10px;">
+  	        <div class="row" id="alumni_awards_footer" style="margin:10px;padding-top:5px;padding-botttom:5px; border-top-color:#484848; border-top-style:solid; border-top-width:0px;">
+  			 <br>
+  			 <br><br><br>
+  		     <div class="col-sm-3">
+  			     <a href="index.html"><p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;margin-top:6px;color:#8f8f8f;">Home</p></a>
+                   <a href="about.html"><p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">About</p></a>
+                   <a href="winners_2020.html"><p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Winners 2020</p></a>
+                   <a href="nomination_call.html"><p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Nomination Call</p></a>
+  				 <a href="http://www.idc.iitb.ac.in/abouts/contact-idc" target="_blank"><p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Contact IDC</p></a>
+  				 <div class="d-flex flex-row" style="margin-top:10px;">
+  				 </div>
+  			 </div>
+  		     <div class="col-sm-3">
+  			     <p style="margin-top:0px;padding-bottom:2px;margin-bottom:0px;margin-top:6px;color:#8f8f8f;">Industrial Design Centre, IIT Bombay</p>
+                   <p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Powai, Mumbai, INDIA - 400 076</p>
+                   <p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Phone: 091-022-2576 7801/ 7802</p>
+                   <p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">Email: awardsidc[at]gmail.com</p>
+                   <p style="padding-top:0px;margin-top:0px;padding-bottom:0px;margin-bottom:0px;color:#8f8f8f;">http://www.idc.iitb.ac.in/</p>
+  			 </div>
+  			 <div class="col-sm-3">
+  			     <img  class="img-fluid mx-auto d-block" src="images/iitb_logo_1.png">
+  			 </div>
+  			 <div class="col-sm-3">
+  			     <img  class="img-fluid mx-auto d-block" src="images/idc_logo.png">
+  			 </div>
+  			</div>
+
+  			<br><br>
+
+  			<div class="row">
+  			   <div class="col-sm-12">
+  			     <p style="text-align:center;"> &copy 2020 IDC School of Design, IIT Bombay, Powai, Mumbai, Maharashtra 400076</p>
+  			   </div>
+  			</div>
+  			<br>
+  			<br>
+  	 </div>
+  	<!--footer end-->
+
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+</body>
+</html>

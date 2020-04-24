@@ -1,0 +1,193 @@
+body{
+	 background-color:white;
+	 font-family: 'Roboto', sans-serif;
+}
+
+.container{
+   height:;
+	 display:block;
+}
+
+p{
+  font-size:18px;
+	color:#000000;
+}
+
+h4{
+  color:#465462;
+  text-align:center;
+}
+
+h5{
+  color:#404040;
+  font-size:20px;
+  text-align:center;
+}
+
+h3{
+  color:#34414c;
+  text-align:center;
+}
+
+.navbarbar{
+  padding:0px;
+}
+
+.nav-link{
+  font-weight:500;
+  font-size:18px;
+  padding:5px;
+}
+
+.nav-link:hover{
+  padding:5px;
+  background-color:#ffeaa7 ;
+  border-radius: 3px;
+}
+
+#collapsibleNavbar{
+  padding-left:0px;
+}
+
+.item{
+  text-align:center;
+}
+
+li{
+  list-style-type:none;
+  font-size:16px;
+}
+.menu_list{
+  padding:0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+ color:#ffffff;
+}
+
+a:hover {
+ text-decoration: underline;
+ color:#ffffff;
+}
+
+a:active {
+  text-decoration: underline;
+  color:#ffffff;
+}
+
+a.page_link:link {
+ text-decoration: underline;
+ color:#bd570f;
+}
+
+a.page_link:visited {
+ text-decoration: underline;
+ color:#bd570f;
+}
+
+a.page_link:hover {
+ text-decoration: underline;
+ color:#f17822;
+}
+
+a.page_link:active {
+  text-decoration: underline;
+  color:#f17822;
+}
+
+#logo{
+  visibility:visible;
+}
+
+.navbar-default {
+  background-color:#f5f5f5;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+table, th, td {
+  border: 0px solid #f178226e;
+  border-collapse: collapse;
+  margin:5px;
+}
+th{
+   background-color:#f178223d;
+   color:#335b5f;
+}
+td{
+  color:#5c8589;
+}
+
+table{
+  width:98%;
+  margin-left:5px;
+}
+td,th{
+  width:20%;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+  maring:5px;
+}
+
+#new_highlight{
+  color:white;
+  background-color:white;
+  padding:3px;
+  animation-name: blink;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.buttn{
+  background-color: #fff0;
+  color:#008055;
+  border: 2px solid #008055;
+  border-radius: 4px;
+  padding-left:8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 20px;
+}
+
+.buttn:hover{
+  background-color: #008055;
+  color:#f5f5f5;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+.navbar{
+  padding-left:20px;
+  padding-bottom:0px;
+  padding:15px;
+}
+
+#collapsibleNavbar{
+  padding-left:0px;
+}
+}
